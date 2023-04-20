@@ -1,0 +1,12 @@
+{
+  "tags": [
+    {
+      "name": "pet"
+    }
+  ],
+  "paths": {
+    "/pet/{petId}/uploadImage": {
+      "$ref": "pet/uploadImage.json"
+    }
+  }
+}
