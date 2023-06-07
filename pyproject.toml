@@ -48,8 +48,8 @@ Source = "https://github.com/dasshit/im-swagger-spy"
 [project.scripts]
 im_swagger_spy = "im_swagger_spy.__main__:cli"
 
-[project.entry-points]
-pytest11 = ["im_swagger_spy = im_swagger_spy.plugin"]
+[project.entry-points.pytest11]
+im_swagger_spy = "im_swagger_spy.plugin"
 
 [tool.hatch.metadata]
 allow-direct-references = true
