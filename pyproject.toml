@@ -40,10 +40,9 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-Homepage = "https://lancetnik.github.io/Propan/"
-Documentation = "https://lancetnik.github.io/Propan/"
-Tracker = "https://github.com/Lancetnik/Propan/issues"
-Source = "https://github.com/Lancetnik/Propan"
+Homepage = "https://github.com/dasshit/im-swagger-spy"
+Tracker = "https://github.com/dasshit/im-swagger-spy/issues"
+Source = "https://github.com/dasshit/im-swagger-spy"
 
 [project.scripts]
 im_swagger_spy = "im_swagger_spy.__main__:cli"
