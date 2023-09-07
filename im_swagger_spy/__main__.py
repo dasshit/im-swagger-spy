@@ -15,5 +15,9 @@ logging.basicConfig(
     ])
 )
 
+logger = logging.getLogger(__name__)
+
 if sys.argv[1] == 'build':
-    SwaggerBaseSpy.build_report()
+    cli = SwaggerBaseSpy.build_report()
+else:
+    cli = lambda: logger.warning(f'Unknown command: {sys.argv}')
